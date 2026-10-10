@@ -1,0 +1,24 @@
+# このリポジトリはソースコード(*.cs)のみを配布する。
+# 動作確認用に作ったプロジェクトのビルド成果物やIDE・OSの生成ファイルはコミットしない。
+
+# .NET ビルド成果物
+bin/
+obj/
+*.csproj
+*.sln
+*.slnx
+TestResults/
+*.user
+*.suo
+
+# Unity（このリポジトリをUnityプロジェクト内に置いて開いた場合に生成されるもの）
+*.meta
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
